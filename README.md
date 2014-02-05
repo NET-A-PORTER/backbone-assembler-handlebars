@@ -1,6 +1,6 @@
 # Backbone.Assembler
 
-Handlebars](http://handlebarsjs.com) mixin for [Backbone.Assembler](https://github.com/NET-A-PORTER/backbone-assembler). 
+[Handlebars](http://handlebarsjs.com) mixin for [Backbone.Assembler](https://github.com/NET-A-PORTER/backbone-assembler). 
 
 
 ## Dependencies

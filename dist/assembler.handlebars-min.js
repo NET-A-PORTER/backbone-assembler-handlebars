@@ -1,0 +1,2 @@
+(function(e,n){if(typeof define==="function"&&define.amd){define(["handlebars"],n)}else if(typeof exports==="object"){module.exports=n(require("handlebars"))}else{e.Assembler.HandlebarsMixin=n(e.Handlebars)}})(this,function(e){return{setTemplate:function(n){if(typeof n!=="function"){n=e.compile(n)}this.template=n;return this}}});
+//# sourceMappingURL=dist/assembler.handlebars-min.map
