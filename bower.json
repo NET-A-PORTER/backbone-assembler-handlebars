@@ -1,0 +1,10 @@
+{
+    "name": "backbone-assembler-handlebars",
+    "version": "0.1.2",
+    "main": "assembler.handlebars.js",
+    "dependencies": {
+        "backbone-assembler": ">= 0.1.2",
+        "handlebars": ">= 1.0"
+    },
+    "ignore": ["dist"]
+}

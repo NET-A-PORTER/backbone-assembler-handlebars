@@ -1,0 +1,29 @@
+{
+    "name": "backbone-assembler-handlebars",
+    "version": "0.1.2",
+    "description": "Handlebars mixin for Assembler", 
+    "keywords": ["backbone", "assembler", "handlebars", "mixin"],
+    "author": "Thomas Heymann <thomas.heymann@net-a-porter.com",
+    "contributors": [
+        "Thomas Lillington <thomas.lillington@net-a-porter.com>",
+        "Thomas Minton <thomas.minton@net-a-porter.com>"
+    ],
+    "license": "Apache",
+    "peerDependencies": {
+        "backbone-assembler": ">= 0.1.2"
+    },
+    "dependencies": {
+        "handlebars": ">= 1.0"
+    },
+    "devDependencies": {
+        "uglify-js": "2.4.x"
+    },
+    "scripts": {
+        "build": "mkdir -p dist && uglifyjs assembler.handlebars.js --mangle --source-map dist/assembler.handlebars-min.map -o dist/assembler.handlebars-min.js"
+    },
+    "main": "assembler.handlebars.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NET-A-PORTER/backbone-assembler-handlebars.git"
+    }
+}
